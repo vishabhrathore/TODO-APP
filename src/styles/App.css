@@ -1,0 +1,113 @@
+h1, h3 {
+    margin: 3vh 0;
+    color: #27aedb;
+    text-align: center;
+    }
+    
+
+button{
+    margin-top: 10px;
+    color: black;
+    background-color: #72c7e3;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.bg-pink{
+	background-color:pink;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width:100vw;
+    height:100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input{
+    margin-top: 50px;
+    border: 2px solid black;
+    padding: 1vw;
+    width:35vw;
+    border-bottom: none;
+}
+label, input{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 3vh;
+    width: 99%;
+}
+label{
+    font-size: larger;
+    /* color: #00a3da; */
+}input{
+    display: inline-block;
+    border: 2px solid black;
+    height: 5vh;
+
+}
+#task{
+    width: 99.5%;
+    border: 2px solid black;
+}
+.list{
+    border-top: none;
+    border: 2px solid black;
+    padding: 1vw;
+    width:35vw;
+    /* height: 40vh; */
+}
+.listItem{
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid black;
+    padding: 3px;
+    display: flex;
+    margin: 10px 0;
+
+}
+
+.left{
+ display: inline-block;
+ width:70%;
+ padding: 3px;
+ box-sizing: border-box;
+}
+.right{
+    display: flex;
+    width:30%;
+    justify-content: space-around;
+}
+img{
+    width: 30px;
+}
+
+#done{
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: auto;
+}
+.UI{
+    display: flex;
+justify-content: space-evenly;
+width: 100%;
+}
+.strike{
+    color:red;
+    text-decoration: line-through;
+}
+.cardd{
+    width: 38vw;
+}
